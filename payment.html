@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="registration.html">Registration</a>
+            <a href="login.html">Login</a>
+            <a href="product.html">products</a>
+    
+        </div>
+    </header>
+    <main class="payment">
+    <h3 class="title">Payment</h3>
+    <label id="UPI" >
+        UPI
+        <input type="radio" class="payment" id="UPI"><bR>
+        <input type="text" placeholder="Enter UPI id">
+    </label><br><BR><br>
+    <label id="Creditcard">
+        Creditcard
+        <input type="radio" class="payment" id="Creditcard"><br>
+        <input type="text" placeholder="Enter card no."><br>
+        <input type="text" placeholder="Enter CVV">
+    </label><BR><BR><br>
+    <label id="Debitcard">
+        Debitcard
+        <input type="radio" class="payment" id="Debitcard"><br>
+        <input type="text" placeholder="Enter card no."><br>
+        <input type="text" placeholder="Enter CVV">
+    </label>
+    </main>
+    <footer>
+        <form action="order.html">
+            <input type="submit" class="submit" value="Pay">
+        </form>
+    </footer>
+</body>
+</html>
